@@ -383,6 +383,11 @@ https://sgclient.duckdns.org/source/tv360.m3u8?id=32
 #EXTINF:-1 tvg-id="youtv" group-title="Địa phương" tvg-logo="https://img-ali1.tv360.vn/image1/2020_09_23/1600823396313/7b474bf7bbce_640_360.png", YouTV
 https://sgclient.duckdns.org/source/tv360.m3u8?id=31
 
+#EXTINF:-1 tvg-id="antvhd" group-title="Địa phương" tvg-logo="https://img-zlr1.tv360.vn/image1/2020_09_23/1600822516608/b33963dc0df8_640_360.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", ANTV HD
+https://freem3u.xyz/api/live/play.m3u8?vid=20
+#EXTINF:-1 tvg-id="qpvnhd" group-title="Địa phương" tvg-logo="https://i.ytimg.com/vi/sFLUmdwp0Z8/maxresdefault.jpg" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/quocphongvnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", QPVN HD
+https://freem3u.xyz/api/live/play.m3u8?vid=19
+
 #EXTINF:-1 tvg-id="hbohd" group-title="Quốc Tế" tvg-logo="https://i.pinimg.com/originals/8b/02/00/8b020050690f955ccb306cdf51324aea.png", HBO
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -460,56 +465,14 @@ http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=10846
 #EXTINF:-1 tvg-name="DW" tvg-logo="https://i.imgur.com/A1xzjOI.png" tvg-id="DWEnglish.de" tvg-chno="5" group-title="Quốc Tế",DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
-#EXTINF:-1 tvg-id="DiscoveryChannel.pl@SD",Discovery Channel (1080p)
-http://57.128.231.171:8080/282/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryHistoria.pl@SD",Discovery Historia (576p)
-http://57.128.231.171:8080/281/index.m3u8
-#EXTINF:-1 tvg-id="HGTV.pl@SD",HGTV (1080p)
-http://57.128.231.171:8080/241/index.m3u8
-#EXTINF:-1 tvg-id="4FunKids.pl@SD",4 Fun Kids (576i)
-https://stream.4fun.tv:8889/hls/4fk.m3u8
-#EXTINF:-1 tvg-id="PolsatPlay.pl@SD",Polsat Play (1080p)
-http://57.128.210.196:8080/198/index.m3u8
-#EXTINF:-1 tvg-id="PolsatNews.pl@SD",Polsat News (1080p)
-http://57.128.210.196:8080/199/index.m3u8
-#EXTINF:-1 tvg-id="PolsatMusic.pl@SD",Polsat Music (1080p)
-http://57.128.210.196:8080/201/index.m3u8
-#EXTINF:-1 tvg-id="PolsatJimJam.pl@SD",Polsat JimJam (576p)
-http://57.128.210.196:8080/202/index.m3u8
-#EXTINF:-1 tvg-id="Polsat.pl@SD",Polsat (1080p)
-http://57.128.210.196:8080/203/index.m3u8
-#EXTINF:-1 tvg-id="PolsatGames.pl@SD",Polsat Games (1080p)
-http://57.128.210.196:8080/204/index.m3u8
-#EXTINF:-1 tvg-id="PolsatFilm.pl@SD",Polsat Film (1080p)
-http://57.128.210.196:8080/205/index.m3u8
-#EXTINF:-1 tvg-id="PolsatDoku.pl@SD",Polsat Doku (1080p)
-http://57.128.210.196:8080/206/index.m3u8
-#EXTINF:-1 tvg-id="PolsatCafe.pl@SD",Polsat Cafe (1080p)
-http://57.128.210.196:8080/207/index.m3u8
-#EXTINF:-1 tvg-id="PoloTV.pl@SD",Polo TV (1080p)
-http://57.128.210.196:8080/210/index.m3u8
-#EXTINF:-1 tvg-id="ParamountNetwork.pl@SD",Paramount Network (1080p)
-http://57.128.210.196:8080/212/index.m3u8
-#EXTINF:-1 tvg-id="TV4.pl@SD",TV4 (1080p)
-http://57.128.210.196:8080/161/index.m3u8
-#EXTINF:-1 tvg-id="WaterPlanet.pl@SD",Water Planet (1080p)
-http://57.128.231.171:8080/122/index.m3u8
-#EXTINF:-1 tvg-id="Motowizja.pl@SD",Motowizja (1080p)
-http://57.128.231.171:8080/230/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.pl@SD",Investigation Discovery (1080p)
-http://57.128.231.171:8080/239/index.m3u8
-#EXTINF:-1 tvg-id="History.pl@SD",History (1080p)
-http://57.128.231.171:8080/240/index.m3u8
-#EXTINF:-1 tvg-id="History2.pl@SD",History 2 (1080p)
-http://57.128.231.171:8080/247/index.m3u8
+
+
 #EXTINF:-1 tvg-id="DisneyXD.pl@SD",Disney XD (576p)
 http://57.128.231.171:8080/276/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.pl@SD",Disney Channel (1080p)
 http://57.128.231.171:8080/278/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.pl@SD",National Geographic (576i)
 http://92.114.85.87:8006/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="TVPKultura.pl@SD",TVP Kultura (1080p)
-http://92.114.85.87:8006/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusAction.pl@HD",FILMBOX+ Action (720p)
 http://92.114.85.87:8008/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Poland",FILMBOX+ Comedy (720p)
@@ -518,12 +481,7 @@ http://92.114.85.87:8008/play/a009/index.m3u8
 http://92.114.85.87:8008/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Poland",FILMBOX+ Hits (576i)
 http://92.114.85.87:8008/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="RomanceTV.pl@SD",Romance TV (576i)
-http://92.114.85.87:8009/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="TeletoonPlus.pl@HD",Teletoon+ HD (1080i)
-http://92.114.85.87:8009/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="ActiveFamily.pl@HD",Active Family HD (1080i)
-http://92.114.85.87:8010/play/a00p/index.m3u8
+
 #EXTINF:-1 tvg-id="HBO.pl@SD",HBO (576i)
 http://57.128.231.171:8080/243/index.m3u8
 #EXTINF:-1 tvg-id="HBO2.pl@SD",HBO 2 (576i)
@@ -536,8 +494,7 @@ http://57.128.210.196:8080/296/index.m3u8
 http://57.128.210.196:8080/299/index.m3u8
 #EXTINF:-1 tvg-id="CANALPlus360.pl@SD",CANAL+ 360 (576i)
 http://57.128.210.196:8080/300/index.m3u8
-#EXTINF:-1 tvg-id="CanalPlusDokument.pl@SD",Canal+ Dokument (576i)
-http://57.128.210.196:8080/301/index.m3u8
+
 #EXTINF:-1 tvg-id="4FunKids.pl@SD",4 Fun Kids
 https://stream.4fun.tv:8889/hd/kids_hd_high.m3u8
 #EXTINF:-1 tvg-id="V90.pl@SD",V90 (1080p)
@@ -626,31 +583,23 @@ https://live-hq.evgcdn.net/live/2851dd3d9016ac74d84b0c4a7a659f76891/chunklist.m3
 https://stream.zeno.fm/4q7y9hvkp2zuv
 #EXTINF:-1 group-title="Radio" tvg-logo="https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgICQ2ciKiAoMCxIOU3RhdGlvblByb2ZpbGUYgIDQoL-YpAoMogEEemVubw/image/", Cải Lương Việt Nam
 https://stream.zeno.fm/0trm6wrnga0uv
-#EXTINF:-1 group-title=Radio" tvg-logo="https://dongnhacvang.com/wp-content/uploads/2019/08/cropped-logo-nhac-vang-1-2.png", Radio Nhạc Vàng Xưa
+
+#EXTINF:-1 group-title="Radio" tvg-logo="https://dongnhacvang.com/wp-content/uploads/2019/08/cropped-logo-nhac-vang-1-2.png", Radio Nhạc Vàng Xưa
 https://stream.zeno.fm/x2z45v7d84zuv
+
 #EXTINF:-1 group-title="Radio" tvg-logo="https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgICQ2ciKiAoMCxIOU3RhdGlvblByb2ZpbGUYgIDQidjS_wkMogEEemVubw/image/", Radio DJ
 https://stream.zeno.fm/ehbutdfccm0uv
 #EXTINF:-1 group-title="Radio" tvg-logo="https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgICQ2ciKiAoMCxIOU3RhdGlvblByb2ZpbGUYgIDQiavcsgsMogEEemVubw/image/", Radio Phật Giáo
 https://stream.zeno.fm/8456uy0bcm0uv
 #EXTINF:-1 group-title="Radio" tvg-logo="https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgICQ2ciKiAoMCxIOU3RhdGlvblByb2ZpbGUYgICw0ILTsQoMogEEemVubw/image/", Radio Nhạc Dân Ca
 https://stream.zeno.fm/a2dbs2tq1p8uv
+
 #EXTINF:-1 group-title="🇬🇧 UK Radio" tvg-logo="https://ukradiolive.com/public/uploads/radio_img/heart-london/fb_cover.jpg", Heart FM UK
 https://media-ssl.musicradio.com/HeartUK
 #EXTINF:-1 group-title="🇬🇧 UK Radio" tvg-logo="https://www.globalplayer.com/assets/track-placeholders/capital.jpg", Capital Radio UK
 https://media-ssl.musicradio.com/CapitalUK
 
-#EXTINF:-1 tvg-id="VirginMediaThree.ie" group-title="Israel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Virgin_Media_Three_logo_2018.svg/3840px-Virgin_Media_Three_logo_2018.svg.png", Virgin Media Three
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b10708238b2fe95e0080fe17c28d88fb:1afd6317f3b44772aa2463e1ea1f7d42
-https://d3n2r2x6pixas4.cloudfront.net/out/v1/426d7a9e942b4f64917d66940bd3b147/index.mpd
-#EXTINF:-1 tvg-id="VirginMediaFour.ie" group-title="Israel" tvg-logo="https://i.ytimg.com/vi/QZZijZXNeqo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC-WbMQHFRNT0NZEmZ7Wngm4na2TQ", Virgin Media Four
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=bdcf25ad46d7907c35832964b836a4bd:9edd4350307b4405b132ff97816d81e9
-https://d1o5wc5bjvzqoa.cloudfront.net/out/v1/bb744b243afb44eabcc56d002c36cafd/index.mpd
+
 #EXTINF:-1 group-title="🇰🇷| Hàn Quốc" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3f/CJB.jpg/revision/latest?cb=20200224093248&path-prefix=ko", CJB SBS
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷| Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Jtv_logo.svg/250px-Jtv_logo.svg.png?_=20220328012951", JTV SBS
@@ -693,14 +642,6 @@ http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
 #EXTVLCOPT:http-referrer=http://broadcast.tvchosun.com/onair/on2.cstv
 http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
 
-#EXTINF:-1 group-title="🇹🇭| Thái Lan" tvg-logo="https://image.makewebcdn.com/makeweb/m_1920x0/fwsVrxqVa/3PPTV36/PPTV_By_HSTN.jpg", PPTV36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chpptvhd3/index.m3u8
-#EXTINF:-1 group-title="🇹🇭| Thái Lan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d5/Mono_29_Logo.png", MONO 29
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmono293/index.m3u8
-#EXTINF:-1 group-title="🇹🇭| Thái Lan" tvg-logo="https://www.thairath.co.th/assets/tv/img/share_tv.jpg", Thairath TV 32
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:7a:39:a6&stream=1776225&extension=ts&play_token=TGCPfAlA9v
-#EXTINF:-1 group-title="🇰🇭| Campuchia" tvg-logo="https://1.bp.blogspot.com/-eaJhNFbzINk/XlhGheWJpgI/AAAAAAAAJ8M/k3fnwM6DPfso2q3pF8yzQWvg8ZScKF2dQCLcBGAsYHQ/s1600/HMHD.png", Ramsey HangMeas Melody UHD
-http://abclive.malisresidences.com:1935/hmmel/_definst_/smil:hmmel.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="LIVE EVENTS 🔴" tvg-logo="https://daknong.1cdn.vn/2025/02/06/den-am-hon-review-phim-va-lich-chieu-tai-viet-nam.jpg", Đèn Âm Hồn: Người Con Gái Nam Xương
 https://s6.kkphimplayer6.com/20250811/miyJKDrj/3500kb/hls/index.m3u8
@@ -858,15 +799,9 @@ https://livevlisctcdnw.seenow.vn/livesnv2/MUSICBOX/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
 https://livevlisctcdnw.seenow.vn/Live_DASHDRM1/WO/manifest.mpd
 
-#EXTINF:-1 tvg-id="antvhd" group-title="🌐| Thiết yếu" tvg-logo="https://img-zlr1.tv360.vn/image1/2020_09_23/1600822516608/b33963dc0df8_640_360.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", ANTV HD
-https://freem3u.xyz/api/live/play.m3u8?vid=20
-#EXTINF:-1 tvg-id="qpvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://i.ytimg.com/vi/sFLUmdwp0Z8/maxresdefault.jpg" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/quocphongvnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", QPVN HD
-https://freem3u.xyz/api/live/play.m3u8?vid=19
 
-#EXTINF:-1 tvg-id="vtv6hd" group-title="ASEAN HUYNDAI CUP 2026" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/VTV6.png", VTV6
-https://247.dpdns.org/VIP/vtv6/nactha
-#EXTINF:-1 tvg-id="vtv7hd" group-title="ASEAN HUYNDAI CUP 2026" tvg-logo="https://i.ytimg.com/vi/hWt5JN_B66Y/maxresdefault.jpg" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=459&time=${start}&offset=${duration}, VTV7
-https://247.dpdns.org/VIP/vtv7/nactha
+
+
 #EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyf1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/p5csyn1620551587.png",Sky Sport F1
 http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=1149423&extension=ts&play_token=1jkVQWGCqc
 #EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skytennis" tvg-logo="https://e0.365dm.com/24/01/2048x1152/skysports-sky-sports-tennis_6437040.jpg",Sky Sport Tennis
@@ -954,9 +889,8 @@ https://vmttv.dpdns.org/tv360/?id=360-hanh-dong-chau-a
 #EXTINF:-1 group-title="Rạp Phim" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/09/21/1775744591740/79928f9b003f_640_360.png", 360 K-Drama
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-k-drama
+
 #EXTINF:-1 group-title="Rạp Phim" tvg-logo="
-#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/07/26/zuffa-boxing-9---slide-thumb_1785069690199.jpg", Sự Kiện 3
-https://vips-livecdn.fptplay.net/live/media/su-kien-03/hls_avc_v6/index.m3u8
 
 #EXTINF:-1 tvg-name="10 HD" tvg-logo="https://i.imgur.com/ZjKvXPn.png" tvg-id="10Sydney.au" tvg-chno="5" tvg-country="AU" group-title="Australia",10 HD
 https://i.mjh.nz/.r/10-nsw.m3u8
