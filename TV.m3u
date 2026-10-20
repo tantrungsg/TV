@@ -1,4 +1,6 @@
 #EXTM3U
+#EXT-X-VERSION:3
+
 
 #EXTM3U url-tvg="https://lichphatsong.io.vn/epg.xml"
 #EXTINF:-1 tvg-id="tvbvn" group-title="TVB" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/TVB%20Vietnam%20Banner_Side.jpg", TVB VIỆT NAM
@@ -398,6 +400,17 @@ https://freem3u.xyz/api/live/play.m3u8?vid=215
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"6YaPX0c9D9hpnt5I1THCsA","kid":"rLTCNHEGMyetxzLig8CEfw"}],"type":"temporary"}
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/max.smil/manifest.mpd
 
+#EXTINF:-1 tvg-id="cnn" group-title="Quốc Tế" tvg-logo="https://deadline.com/wp-content/uploads/2020/09/CNN-Logo.jpg", CNN
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=3564000
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=848x480,BANDWIDTH=1964000
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_2_1964000.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=640x360,BANDWIDTH=1464000
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=640x360,BANDWIDTH=1064000
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8
+
+
 
 #EXTINF:-1 tvg-name="Arirang World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/67cfa9368d2d135744732a3aed3baecb3fadcf13/countries/international/arirang-int.png" tvg-id="ArirangWorld.kr" tvg-chno="214" tvg-country="GB" group-title="Quốc Tế",Arirang World
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
@@ -449,6 +462,26 @@ http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=10846
 
 #EXTINF:-1 tvg-name="DW" tvg-logo="https://i.imgur.com/A1xzjOI.png" tvg-id="DWEnglish.de" tvg-chno="5" group-title="Quốc Tế",DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=10260000,BANDWIDTH=12820000,AUDIO="aac",SUBTITLES="subs",RESOLUTION=1920x1080,FRAME-RATE=25.000,CODECS="avc1.640028"
+https://stream01.vnet.am/Boomerang/tracks-v1a2/mono.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360
+https://e10.espncdn.shop/ingestnb4s/espn_usa/c.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1600000,RESOLUTION=960x540
+https://e10.espncdn.shop/ingestnb4s/espn_usa/d.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=4800000,RESOLUTION=1280x720
+https://e10.espncdn.shop/ingestnb4s/espn_usa/f.m3u8
+
+#EXT-X-VERSION:5
+#EXT-X-ALLOW-CACHE:NO
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio1",LANGUAGE="slv",NAME="SD_audio_2Mb",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://streamer11.xploretv.si/qdcnm4/__cl/cg:prod/__c/A1_SI_FOXMOVIES_ott/__op/dash-default/__dci/__f/2/HD_audio_4Mb/manifest.m3u8?redirect=true&admin=xploreTv_test_user"
+#EXT-X-STREAM-INF:BANDWIDTH=4128000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",AUDIO="audio1",FRAME-RATE=25
+https://streamer11.xploretv.si/qdcnm4/__cl/cg:prod/__c/A1_SI_FOXMOVIES_ott/__op/dash-default/__dci/__f/2/HD_video_4Mb/manifest.m3u8?redirect=true&admin=xploreTv_test_user
+#EXT-X-ENDLIST
+
+
 
 
 #EXTINF:-1 tvg-id="vov1" group-title="Radio" tvg-logo="https://admin.vov.gov.vn/UploadFolder/KhoTin/Images/UploadFolder/VOVVN/Images/sites/default/files/2024-02/vov1.jpg", VOV1
